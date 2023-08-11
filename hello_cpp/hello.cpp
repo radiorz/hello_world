@@ -1,8 +1,8 @@
 #include <iostream>
-
+#include "module.h"
 using namespace std;
 int main()
 {
-  std::clog << "123 " << 123 << std::endl;
+  printHello();
   return 0;
 }
